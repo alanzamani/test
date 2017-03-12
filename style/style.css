@@ -1,0 +1,41 @@
+.bgimage {
+    background-image: url("pic.jpg");
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    font-style: bold;
+    color: yellow;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+.pre-scrollable{
+    max-width: 500px;
+}
+blockquote{
+    max-width: 600px;
+}
+p{
+    text-align: center;
+}
+h1{
+    margin-top: 0px;
+}
+.row p{
+    text-align: left;
+}
+.manClass{
+    background-size: cover;
+    background: url("welcome.jpeg") top left;
+    height: 134px;
+}
+@media (max-width: 767px) {
+    .img-responsive{
+        max-width: 70%;
+        min-width: 150px;
+    }
+}
